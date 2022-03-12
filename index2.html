@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <?php
+    include ("phpconnect.php");
+?>
+    mysql>use python_mysql;
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Vehicle Padi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <p class="hea">Vehicle Padi</p>
+</header>
+<nav></nav>
+    <section>
+        <div id="search">
+            <form method="post" action="connect.php">
+            <p class="where">Where Are You?</p>   
+         <select>
+            <option>enter you location</option>
+             <option>Karu</option>
+             <option>Garki</option>
+             <option>Wuse</option>
+             <option>Gwarimpa</option>
+         </select>
+         <input type="Search" value="Search">
+         </div>
+</section>
+    <section>
+    <h2>List of Mechanics</h2>
+    <ul>
+        <li><a href="#">Jim Mechanic</a>
+            <ul>Location: Karu</ul>
+            <ul>Review: Rating 5</ul>
+        </li>
+        <li><a href="#">Sarah Mechanic</a>
+            <ul>Location: Karu</ul>
+            <ul>Review: Rating 5</ul>
+        </li>
+        
+        <li><a href="#">Victor Mechanic</li>
+            <ul>Location: Karu</ul>
+            <ul>Review: Rating 3</ul>
+        </li>
+        <li>Rex Mechanic
+            <ul>Location: Karu</ul>
+            <ul>Review: Rating 2</ul>
+        </li>
+        
+
+    </ul>
+</section>
+   <footer>
+       <address>
+           No. 24 Biz Street Karshi
+       </address>
+   </footer>
+</body>
+</html>

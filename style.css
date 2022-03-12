@@ -1,0 +1,48 @@
+body {
+  background-color: #ccc;
+  width:  100%;
+  height:  100%;
+}
+header {
+  width:  100%;
+  height:  100%;
+  background-color: #ccc;
+   float:  left;
+    font-size: 12pt;
+}
+.hea {
+  font-size: 3em;
+  padding-left: 30%;
+}
+.where {
+  font-size: 2em;
+    
+}
+nav {
+  width:  100%;
+  height:  30px;
+  background-color: red;
+   float:  left;
+}
+section {
+  width:  90%;
+  height:  100%;
+  background-color: #fff;
+   float:  left;
+   padding: 3% 10% 0% 30%;
+}
+#search {
+  width:  300px;
+  height:  auto;
+  float:  left;
+
+}
+
+footer {
+  width:  100%;
+  height: 50px;
+  background-color: #ccc;
+   float:  left;
+   padding-left: 30%;
+  padding-top: 3%;
+}
